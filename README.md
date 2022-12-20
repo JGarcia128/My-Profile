@@ -40,7 +40,10 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
 
-## Screenshots
-This would be the front page of my profile 
+## Demonstation
+This is a demonstration of my profile 
+https://www.awesomescreenshot.com/video/13440839?key=ca1e41f5c19cdac9730e518154be5339
 
-src\assets\images\Jeidis picture.jpg
+## Links 
+Github: https://github.com/JGarcia128/My-Profile
+Develop: 
