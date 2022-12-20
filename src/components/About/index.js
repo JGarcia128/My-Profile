@@ -22,13 +22,8 @@ function About() {
 				 I am known as a problem solver, when doing a project I aim to do my best for the audience to see my experience.  
 				</p>
 				<p>
-					I applied some of the skills i know in my recent project. 
-					<a
-						href="https://github.com/JGarcia128/Note-Taker"
-						target="_blank"
-					>
-						develop
-					</a>{' '}
+					I applied some of the skills i know in my recent projects. 
+					
 					<a
 						href="https://heroku.link"
 						target="_blank"

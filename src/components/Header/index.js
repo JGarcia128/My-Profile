@@ -1,5 +1,5 @@
 import React from "react";
-import Navigation from "../Navigation";
+import Navigation from "../Navigation"; //Change this on the folder navigation anfthe file index.js
 
 function Header(props) {
 	const { currentTab, setCurrentTab } = props;

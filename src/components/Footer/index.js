@@ -29,19 +29,6 @@ function Footer() {
 					></img>
 				</a>
 			</div>
-			<div>
-				<a
-					href="https://twitter.com/mister_garak"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					<img
-						src={require("../../assets/logos/twitter-logo.png")}
-						alt="Twitter"
-						className="logo"
-					></img>
-				</a>
-			</div>
 		</footer>
 	);
 }

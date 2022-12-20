@@ -3,89 +3,68 @@ import Project from '../Project';
 
 function Portfolio() {
 	const projects = [
+		
 		{
-			name: 'Living Real',
+			name: 'Code Quiz',
 			description:
-				'This is a property management system that is used by landlords viewing and managing their properties and for tenants to allow for maintenance requests and pay rent.',
-			image: 'living-real-image.png',
+				'This code is design to test the user about coding. The questions are all multiple choice and at the end it gives you a score. ',
+			image: 'coding test.png',
 			technologies: [
 				'HTML/CSS',
 				'JavaScript',
 				'Node.js',
-				'Express & NoSQL',
-				'Heroku & AWS S3',
-				'React.js',
-				'MERN Stack',
 			],
-			github: 'https://github.com/P3T2-Realty-Rogues/living-real',
-			deployed: 'https://living-real.herokuapp.com/',
+			github: 'https://github.com/JGarcia128/Coding-Quiz',
+			deployed: 'https://jgarcia128.github.io/Coding-Quiz/',
 		},
 		{
-			name: 'Auto Tracker',
+			name: 'Google Book Search',
 			description:
-				'This is your personal automobile information tracking system. Track time dependent, vehicle specific information from a single application, available on any web-enabled device.',
-			image: 'auto-tracker-image.png',
-			technologies: [
-				'HTML/CSS',
-				'JavaScript',
-				'Node.js',
-				'Handlebars.js',
-				'Express & Sequelize',
-				'Heroku & AWS S3',
-			],
-			github: 'https://github.com/OwaisIslam/auto-tracker',
-			deployed: 'https://team-3-auto-tracker.herokuapp.com/',
+				'This app is designed to be able to look up books on google. There is a way to save the books that are favorite and the app has the ability to create an account.',
+			image: 'Google Book Search.png',
+			technologies: ['HTML/CSS', 'JavaScript', 'GraphQL API','MERN'],
+			github: 'https://github.com/JGarcia128/Book-Search-Engine',
+			deployed: 'https://jgarcia128.github.io/Book-Search-Engine/',
 		},
 		{
-			name: 'Flash Beats',
+			name: 'Team Generator',
 			description:
-				'A clean and accurate way to search for your favorite songs while also displaying the lyrics.',
-			image: 'flash-beats-image.gif',
-			technologies: ['HTML/CSS', 'JavaScript', 'jQuery'],
-			github: 'https://github.com/OwaisIslam/flash-beats',
-			deployed: 'https://teamflash1.github.io/music-app/',
-		},
-		{
-			name: 'Budget Tracker',
-			description:
-				'Budget Tracker is an Application that uses a noSQL database and offline persistance for a great user experience for managing their finances and budgeting no matter where they are.',
-			image: 'budget-tracker-image.png',
+				'This application generates a team profile. It would go thorugh the git bash asks a couple question and after generates the profile on the web.',
+			image: 'Team-generator.png',
 			technologies: [
 				'JavaScript',
-				'MongoDB',
-				'IndexedDB & Service Workers',
 				'Node.js',
 				'Express',
 			],
-			github: 'https://github.com/OwaisIslam/budget-tracker',
-			deployed: 'https://budget-tracker-owais.herokuapp.com/',
+			github: 'https://github.com/JGarcia128/Team-Profile-Generator',
+			deployed: 'https://jgarcia128.github.io/Team-Profile-Generator/',
 		},
 		{
 			name: 'Weather Dashboard',
 			description:
-				'A weather dashboard that shows current weather and five-day weather forecast for any city.',
-			image: 'weather-dashboard-image.png',
+				'A weather dashboard that shows current weather and five-day weather forecast for any city. It also stores the previous cities that were searched.',
+			image: 'weather-picture.png',
 			technologies: ['HTML/CSS', 'JavaScript'],
-			github: 'https://github.com/OwaisIslam/weather-dashboard',
-			deployed: 'https://owaisislam.github.io/weather-dashboard/',
+			github: 'https://github.com/JGarcia128/Weather-API',
+			deployed: 'https://jgarcia128.github.io/Weather-API/',
 		},
 		{
 			name: 'Password Generator',
 			description:
-				'This is an application that allows you to generate a password from 8 to 128 characters based on criteria you select.',
+				'Allows you to generate a password from 8 to 128 characters. Along with accepting certain characters',
 			image: 'password-generator-image.png',
 			technologies: ['HTML/CSS', 'JavaScript'],
-			github: 'https://github.com/OwaisIslam/password-generator',
-			deployed: 'https://owaisislam.github.io/password-generator/',
+			github: 'https://github.com/JGarcia128/Password-Challenge',
+			deployed: ' https://jgarcia128.github.io/Password-Challenge/',
 		},
 		{
 			name: 'Note Taker',
 			description:
-				'This application allows the user to enter notes and as they save, they appear in the sidebar on the left. Notes can be deleted by clicking the trash can next to the corresponding note.',
-			image: 'note-taker-image.png',
+			'This application is like a note pad, it stores the users notes. Along with allowing them to erase the notes that users wish to delete.',
+			image: 'new note.png',
 			technologies: ['HTML/CSS', 'JavaScript', 'Express.js'],
-			github: 'https://github.com/OwaisIslam/note-taker',
-			deployed: 'https://note-taker-owais.herokuapp.com/',
+			github: 'https://github.com/JGarcia128/Note-Taker',
+			deployed: 'https://note-taker-rut.herokuapp.com/',
 		},
 	];
 
